@@ -1,0 +1,16 @@
+<div class="position-list-container">
+    <mat-list>
+        <h3 mat-subheader>Positions</h3>
+        <div *ngIf="positions && positions.length > 0">
+            <mat-list-item *ngFor="let position of positions">
+                <mat-icon mat-list-icon>face</mat-icon>
+                <h4 mat-line>{{position.firstName}} {{position.lastName}}</h4>
+                <p mat-line> {{position.role}} </p>
+                <mat-divider></mat-divider>
+            </mat-list-item>
+        </div>
+        <div *ngIf="!positions || positions.length === 0">
+            <h4 mat-subheader>No Results</h4>
+        </div>
+    </mat-list>
+</div>

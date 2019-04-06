@@ -1,0 +1,17 @@
+.position-search-container {
+    display: flex;
+    width: 100%;
+}
+
+.position-search {
+    flex-grow: 5;
+}
+
+.position-role {
+    flex-grow: 1;
+    max-width: 150px;
+}
+
+.full-width {
+    width: 100%;
+}
