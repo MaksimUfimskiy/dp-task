@@ -50,5 +50,35 @@ const positionsMock: Position[] = [
         firstName: 'Dude',
         lastName: 'Lebovski',
         role: 'Just Dude'
+    },
+    {
+        firstName: 'Kent',
+        lastName: 'Mills',
+        role: 'Frontend Dev'
+    },
+    {
+        firstName: 'Lynne',
+        lastName: 'Cooper',
+        role: 'Frontend Dev'
+    },
+    {
+        firstName: 'Larry',
+        lastName: 'Moore',
+        role: 'Frontend Dev'
+    },
+    {
+        firstName: 'Allen',
+        lastName: 'Raynor',
+        role: 'Backend Dev'
+    },
+    {
+        'firstName': 'Danny',
+        'lastName': 'Wang',
+        'role': 'Backend Dev'
+    },
+    {
+        firstName: 'Janet',
+        lastName: 'Hanna',
+        role: 'DevOps'
     }
 ];
